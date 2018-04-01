@@ -14,9 +14,6 @@ public class CarsInher {
 	//available within the same package and in subclasses
 	protected int protectedSpeed;
 	
-	public CarsInher(int startSpeed) {
-		speed = startSpeed;
-	}
 	
 	public void increaseSpeed() {
 		speed++;
